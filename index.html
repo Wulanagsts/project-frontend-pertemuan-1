@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Akademik - STIKOM PGRI Banyuwangi</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="container">
+            <h1>STIKOM PGRI BANYUWANGI</h1>
+            <p class="subtitle">Program Studi S1 Teknik Informatika</p>
+        </div>
+    </header>
+
+    <nav class="app-nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#overview" class="active">Overview</a></li>
+                <li><a href="#student-profile">Profil Mahasiswa</a></li>
+                <li><a href="#service-status">Status Server</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container main-content">
+        <section id="overview" class="card">
+            <h2>Informasi Modul Pembelajaran</h2>
+            <article class="info-item">
+                <span class="label">Mata Kuliah:</span>
+                <span id="course-name" class="value">Dasar Pemrograman Frontend</span>
+            </article>
+            <article class="info-item">
+                <span class="label">Kode Mata Kuliah:</span>
+                <span id="course-code" class="value">KK112104</span>
+            </article>
+            <article class="info-item">
+                <span class="label">Target Backend Integrasi:</span>
+                <span id="backend-target" class="value">Flask REST API (Port 5000)</span>
+            </article>
+        </section>
+
+        <section id="student-profile" class="card">
+            <h2>Data Mahasiswa</h2>
+            <article class="info-item">
+                <span class="label">Nama:</span>
+                <span id="student-name" class="value">-</span>
+            </article>
+            <article class="info-item">
+                <span class="label">NIM:</span>
+                <span id="student-nim" class="value">-</span>
+            </article>
+            <article class="info-item">
+                <span class="label">Prodi:</span>
+                <span id="student-prodi" class="value">-</span>
+            </article>
+            <article class="info-item">
+                <span class="label">Minat Keahlian:</span>
+                <span id="student-interest" class="value">-</span>
+            </article>
+        </section>
+
+        <section id="service-status" class="card status-card">
+            <h2>Status Koneksi Layanan</h2>
+            <div class="status-indicator">
+                <span class="dot active"></span>
+                <p id="status-text">Client-Side Antarmuka Siap (Menunggu Request)</p>
+            </div>
+            <article class="info-item">
+                <span class="label">Endpoint Backend:</span>
+                <span id="endpoint-url" class="value">-</span>
+            </article>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="container">
+            <p>&copy; 2026 STIKOM PGRI Banyuwangi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

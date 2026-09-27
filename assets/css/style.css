@@ -1,0 +1,101 @@
+:root {
+  --color-primary: #1B365D;
+  --color-secondary: #4A5568;
+  --color-bg: #F1F5F9;
+  --color-card: #FFFFFF;
+  --color-text: #2D3748;
+  --color-success: #10B981;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.app-header {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  padding: 24px 0;
+  text-align: center;
+}
+
+.app-nav {
+  background-color: var(--color-secondary);
+  padding: 10px 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: #E2E8F0;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main-content {
+  padding: 30px 0;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--color-card);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.card h2 {
+  margin-bottom: 12px;
+  color: var(--color-primary);
+}
+
+.info-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.dot.active {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-success);
+}
+
+.app-footer {
+  text-align: center;
+  padding: 20px 0;
+  color: var(--color-secondary);
+  font-size: 0.9rem;
+}
