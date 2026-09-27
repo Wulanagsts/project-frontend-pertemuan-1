@@ -14,7 +14,7 @@ const studentProfile = {
   nim: "1125102198",
   prodi: "S1 Teknik Informatika",
   interest: "Desain Grafis"
-}; false
+}; 
 
 // Event Listener saat DOM telah siap dirender
 document.addEventListener('DOMContentLoaded', () => {

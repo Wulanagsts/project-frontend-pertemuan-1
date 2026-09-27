@@ -36,9 +36,11 @@ Endpoint yang menjadi target integrasi: `http://127.0.0.1:5000/api/v1/status`
 
 ## Hasil Uji
 
-_Tempelkan screenshot tampilan antarmuka di sini_
+ini adalah tampilannya
+![alt text](image.png)
 
-_Tempelkan screenshot console log di sini_
+ini console log:
+![alt text](image-1.png)
 
 ## Penulis
 
